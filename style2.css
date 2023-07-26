@@ -1,0 +1,24 @@
+
+.instagram {
+    font-size: 30px; 
+    font-weight: 400; 
+    line-height: 20px; 
+    letter-spacing: 4%; 
+    color: white; 
+    transition: 0.3s;
+    margin-left: 1150px;
+    display: flex;
+    column-gap: 8px;
+    margin-top: 50px;
+}
+.insta__logo {
+    width: 50px;
+    margin-left: 1270px;
+    margin-top: -60px;
+}
+
+body {
+    background: url(https://images.wallpaperscraft.com/image/single/forest_trees_fog_110131_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

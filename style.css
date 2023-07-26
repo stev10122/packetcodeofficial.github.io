@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(https://images.wallpaperscraft.com/image/single/forest_trees_fog_110131_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{ 
+    width: 100%; 
+    background: transparent;
+} 
+.headercontainer{ 
+    max-width: 1366px; 
+    margin: 0 auto; 
+    padding: 15px 15px; 
+} 
+.headercontent{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
+.header__logo{ 
+    display: flex; 
+    align-items: center; 
+    column-gap: 11px; 
+}
+.discord {
+    font-size: 30px; 
+    font-weight: 400; 
+    line-height: 20px; 
+    letter-spacing: 4%; 
+    color: white; 
+    transition: 0.3s;
+}
+.discord:hover {
+    letter-spacing: 5%;
+    color: blue;
+    transition: 0.3s;
+}
+.discord__logo {
+    width: 50px;
+    display: flex;
+    margin-right: 1160px;
+    transition: 0.3s;
+}
+.discord__logo:hover {
+    transform: skew(5deg, 5deg);
+}
